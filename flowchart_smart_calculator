@@ -1,0 +1,66 @@
++----------------------+
+|     Start Program    |
++----------------------+
+           |
+           v
++-------------------------------+
+| Initialize Tkinter Window     |
+| - Title, Size, Styles         |
+| - Mode (Light by default)     |
++-------------------------------+
+           |
+           v
++-------------------------------------+
+| Create Top Bar                     |
+| - Add Mode Toggle (🌞/🌙 Slider)    |
++-------------------------------------+
+           |
+           v
++-------------------------------+
+| Create Entry Display          |
+| - For expression input        |
++-------------------------------+
+           |
+           v
++-------------------------------+
+| Create History Section        |
+| - Scrollable Text Box         |
++-------------------------------+
+           |
+           v
++-------------------------------+
+| Create Buttons Grid           |
+| - Digits, Operators           |
+| - Scientific functions        |
+| - Clear, Equals               |
++-------------------------------+
+           |
+           v
++-------------------------------+
+| On Button Click:              |
+| - Append symbol to expression |
+| - Update entry field          |
++-------------------------------+
+           |
+           v
++-------------------------------+
+| On '=' Button:                |
+| - Transform expression        |
+| - Use math module (e.g. sqrt) |
+| - Evaluate safely             |
+| - Display result              |
+| - Append to history           |
++-------------------------------+
+           |
+           v
++-------------------------------+
+| On Toggle Mode:               |
+| - Switch between light/dark   |
+| - Update colors/icons         |
++-------------------------------+
+           |
+           v
++----------------------+
+| On Close Button      |
+| -> Exit Program      |
++----------------------+
